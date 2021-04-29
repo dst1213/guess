@@ -1,5 +1,5 @@
 {% extends "bootstrap/base.html" %}
-{% block title %}猜数字 - Hello, Flask!{% endblock %}
+{% block title %}猜数字 - DS TONG!{% endblock %}
 
 {% block head %}
     {{ super() }}
@@ -35,7 +35,7 @@
                 {{ message[1] }}
             </div>
             {% endfor %}
-            <a href="https://github.com/helloflask/guess" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/652c5b9acfaddf3a9c326fa6bde407b87f7be0f4/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6f72616e67655f6666373630302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png"></a>
+            <a href="https://github.com/dst1213/guess" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/652c5b9acfaddf3a9c326fa6bde407b87f7be0f4/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6f72616e67655f6666373630302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png"></a>
             <div class="page-header">
                 <h1>猜数字</h1>
             </div>
@@ -43,15 +43,11 @@
             {% block page_content %}{% endblock %}
             <div>
                 <br><br>
-                <a href="http://greyli.com" target="_blank">Blog</a> |
-                <a href="https://zhuanlan.zhihu.com/p/23340992" target="_blank">项目介绍</a> |
-                知乎专栏：<a href="https://zhuanlan.zhihu.com/flask" target="_blank">Hello, Flask!</a>
+                <a href="https://www.zhihu.com/people/ds-tong" target="_blank">DS TONG主页</a> | 
+                知乎专栏：<a href="https://www.zhihu.com/column/c_1354046947167178752" target="_blank">水手小抄</a>
             </div>
             <hr>
-            <a href="http://flask.pocoo.org/"><img
-       src="{{ url_for('static', filename='favicon.png') }}"
-       alt="powered by Flask"
-       title="powered by Flask"></a>
+            <a href="http://flask.pocoo.org/"><img src="{{ url_for('static', filename='favicon.ico') }}" alt="powered by Flask" title="powered by Flask"></a>
         </div>
     </div>
 {% endblock %}
